@@ -1,0 +1,32 @@
+2023-01-13 15:18:08.934 [info] Extension host with pid 140 started
+2023-01-13 15:18:08.945 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Lock acquired.
+2023-01-13 15:18:09.049 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2023-01-13 15:18:09.052 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-01-13 15:18:09.141 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2023-01-13 15:18:09.141 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-13 15:18:09.371 [warning] [Decorations] CAPPING events from decorations provider vscode.git 704
+2023-01-13 15:18:09.379 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-13 15:18:09.379 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-13 15:18:09.379 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-13 15:18:09.380 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2023-01-13 15:18:09.380 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-13 15:18:09.380 [info] Eager extensions activated
+2023-01-13 15:18:09.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 704
+2023-01-13 15:18:11.348 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-13 15:18:11.349 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-13 15:18:11.349 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-13 15:18:11.502 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2023-01-13 15:18:11.502 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2023-01-13 15:18:11.531 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2023-01-13 15:18:11.602 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2023-01-13 15:18:11.603 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2023-01-13 15:18:11.603 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-13 15:18:11.612 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-13 15:18:11.612 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-13 15:18:11.612 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-13 15:18:11.707 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-13 15:19:10.897 [warning] [Decorations] CAPPING events from decorations provider vscode.git 707
+2023-01-13 15:19:15.915 [warning] [Decorations] CAPPING events from decorations provider vscode.git 707
+2023-01-13 15:19:30.477 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?

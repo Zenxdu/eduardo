@@ -378,3 +378,32 @@ CD ..
 npm run test
 http-server .
 code .
+npm i http-server
+http-server .
+http-server
+github
+git init
+git status
+git add .
+git commit 
+git remote add origin https://github.com/Zenxdu/Curso-Web-Moderno
+o
+git remote add origin https://github.com/Zenxdu/Curso-Web-Moderno.git
+git push -u origin main
+git remote add origin https://github.com/Zenxdu/eduardo.git
+git push -u origin main[
+git push -u origin main
+git push -u origin master
+git init
+echo "# Curso-Web-Moderno" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zenxdu/Curso-Web-Moderno.git
+git push -u origin main
+git commit
+git config --global user.email eduardo.coltro@hotmail.com
+main
+github
+code .
