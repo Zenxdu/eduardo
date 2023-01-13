@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },"scripts": {
+    "start": "node your-script.js"
+  }
+}

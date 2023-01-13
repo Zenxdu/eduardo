@@ -1,0 +1,17 @@
+2023-01-10 12:35:35.215 [info] Extension host with pid 12554 started
+2023-01-10 12:35:35.230 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Lock acquired.
+2023-01-10 12:35:35.250 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-01-10 12:35:35.250 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-10 12:35:35.252 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-01-10 12:35:35.402 [warning] Using default string since no string found in i18n bundle that has the key: HTML Language Server
+2023-01-10 12:35:35.459 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-10 12:35:35.459 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-10 12:35:35.591 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onLanguage:code-runner-output'
+2023-01-10 12:35:35.996 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:35:35.996 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:35:35.996 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:35:35.997 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:35:35.997 [info] Eager extensions activated
+2023-01-10 12:39:42.801 [info] Extension host terminating: received terminate message from renderer
+2023-01-10 12:39:42.801 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-10 12:39:42.811 [info] Extension host with pid 12554 exiting with code 0

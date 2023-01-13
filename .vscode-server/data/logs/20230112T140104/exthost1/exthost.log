@@ -1,0 +1,101 @@
+2023-01-12 14:01:06.408 [info] Extension host with pid 140 started
+2023-01-12 14:01:06.428 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Lock acquired.
+2023-01-12 14:01:06.479 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-12 14:01:06.480 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-12 14:01:06.480 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-12 14:01:06.480 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-01-12 14:01:06.480 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-12 14:01:07.042 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2023-01-12 14:01:07.042 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2023-01-12 14:01:07.071 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-12 14:01:07.071 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-12 14:01:07.087 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2023-01-12 14:01:07.235 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2023-01-12 14:01:07.235 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2023-01-12 14:01:07.235 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:01:07.278 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-12 14:01:07.278 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-12 14:01:07.278 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:01:07.313 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onLanguage:code-runner-output'
+2023-01-12 14:01:07.577 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-12 14:01:07.760 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-12 14:01:07.760 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-12 14:01:07.761 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-12 14:01:07.761 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-12 14:01:07.761 [info] Eager extensions activated
+2023-01-12 14:09:08.835 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-12 14:09:08.940 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:09:08.949 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:09:08.949 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:09:08.949 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:09:10.148 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-12 14:09:10.149 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:09:10.166 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-12 14:09:10.166 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-12 14:09:10.166 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:19:05.097 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-01-12 14:19:05.886 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-12 14:19:05.887 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:19:05.889 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:19:05.889 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:19:05.889 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:19:06.072 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-12 14:19:06.104 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10075
+2023-01-12 14:19:06.118 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:19:06.134 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-12 14:19:06.134 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-12 14:19:06.134 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:19:08.333 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10075
+2023-01-12 14:19:08.377 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-12 14:19:08.378 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:19:08.379 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:19:08.379 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:19:08.379 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:19:09.039 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10078
+2023-01-12 14:19:13.194 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:20:28.899 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:20:33.920 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:21:37.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:21:44.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:21:53.667 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:23:22.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:23:43.780 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:23:48.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:23:53.820 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:24:09.688 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:15.477 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:20.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:25.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:28.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:34.111 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:29:34.261 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:29:34.269 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:29:34.269 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:29:34.269 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:30:20.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:30:31.196 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:30:35.335 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:30:35.346 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:30:35.346 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:30:35.346 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:30:36.220 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:30:37.024 [warning] Using default string since no string found in i18n bundle that has the key: There are no staged changes to commit.
+
+Would you like to stage all your changes and commit them directly?
+2023-01-12 14:31:26.551 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:31:26.565 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:31:26.567 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:31:26.567 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:31:26.567 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:31:31.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:32:55.621 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:32:57.243 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-12 14:32:57.245 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-12 14:32:57.245 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-12 14:32:57.245 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-12 14:33:00.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:33:11.655 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:33:16.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:33:21.696 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:34:09.836 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697
+2023-01-12 14:34:32.001 [warning] [Decorations] CAPPING events from decorations provider vscode.git 697

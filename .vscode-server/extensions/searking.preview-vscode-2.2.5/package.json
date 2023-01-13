@@ -1,0 +1,351 @@
+{
+	"name": "preview-vscode",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "2.2.5",
+	"icon": "images/icon.png",
+	"publisher": "searKing",
+	"author": "Haixin Chen",
+	"enableProposedApi": false,
+	"license": "MIT",
+	"readme": "README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/searKing/preview-vscode"
+	},
+	"galleryBanner": {
+		"color": "#78d6f0",
+		"theme": "light"
+	},
+	"bugs": "https://github.com/searKing/preview-vscode/issues",
+	"homepage": "https://github.com/searKing/preview-vscode/blob/master/README.md",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"main": "./out/extension",
+	"browser": "./dist/browser/extension",
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:preview.showPreview",
+		"onCommand:preview.showPreviewToSide"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "mermaid",
+				"aliases": [
+					"Mermaid",
+					"Mermaid Flowchart"
+				],
+				"extensions": [
+					".mmd",
+					".mermaid"
+				]
+			},
+			{
+				"id": "rst",
+				"aliases": [
+					"RST",
+					"ReStructured Text"
+				],
+				"extensions": [
+					".rst",
+					".rest",
+					".hrst"
+				]
+			},
+			{
+				"id": "jade",
+				"aliases": [
+					"Pug",
+					"PUG Text",
+					"Jade"
+				],
+				"extensions": [
+					".pug",
+					".jade"
+				]
+			}
+		],
+		"commands": [
+			{
+				"command": "preview.showPreview",
+				"title": "%preview.preview.title%",
+				"category": "Markdown",
+				"icon": {
+					"light": "./media/preview-light.svg",
+					"dark": "./media/preview-dark.svg"
+				}
+			},
+			{
+				"command": "preview.showPreviewToSide",
+				"title": "%preview.previewSide.title%",
+				"category": "Markdown",
+				"icon": "$(open-preview)"
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "preview.showPreviewToSide",
+					"when": "editorLangId == markdown && !notebookEditorFocused",
+					"alt": "preview.showPreview",
+					"group": "navigation"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "preview.showPreview",
+					"when": "!terminalFocus && !notebookEditorFocused",
+					"group": "navigation"
+				},
+				{
+					"command": "preview.showPreview",
+					"when": "resourceLangId == markdown",
+					"group": "navigation"
+				}
+			],
+			"editor/title/context": [
+				{
+					"command": "preview.showPreview",
+					"when": "!terminalFocus && !notebookEditorFocused",
+					"group": "1_open"
+				},
+				{
+					"command": "preview.showPreview",
+					"when": "resourceLangId == markdown",
+					"group": "1_open"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "preview.showPreview",
+					"when": "editorLangId == markdown && !notebookEditorFocused",
+					"group": "navigation"
+				},
+				{
+					"command": "preview.showPreviewToSide",
+					"when": "editorLangId == markdown && !notebookEditorFocused",
+					"group": "navigation"
+				}
+			]
+		},
+		"keybindings": [
+			{
+				"command": "preview.showPreview",
+				"key": "shift+ctrl+v",
+				"mac": "shift+cmd+v",
+				"when": "!terminalFocus && !notebookEditorFocused"
+			},
+			{
+				"command": "preview.showPreviewToSide",
+				"key": "ctrl+k v",
+				"mac": "cmd+k v",
+				"when": "!terminalFocus && !notebookEditorFocused"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Markdown",
+			"order": 20,
+			"properties": {
+				"markdown.styles": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"default": [],
+					"description": "%markdown.styles.dec%",
+					"scope": "resource"
+				},
+				"preview.preview.breaks": {
+					"type": "boolean",
+					"default": false,
+					"description": "%preview.preview.breaks.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.linkify": {
+					"type": "boolean",
+					"default": true,
+					"description": "%preview.preview.linkify%",
+					"scope": "resource"
+				},
+				"preview.preview.fontFamily": {
+					"type": "string",
+					"default": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+					"description": "%preview.preview.fontFamily.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.fontSize": {
+					"type": "number",
+					"default": 14,
+					"description": "%preview.preview.fontSize.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.lineHeight": {
+					"type": "number",
+					"default": 1.6,
+					"description": "%preview.preview.lineHeight.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.scrollPreviewWithEditor": {
+					"type": "boolean",
+					"default": true,
+					"description": "%preview.preview.scrollPreviewWithEditor.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.markEditorSelection": {
+					"type": "boolean",
+					"default": true,
+					"description": "%preview.preview.markEditorSelection.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.scrollEditorWithPreview": {
+					"type": "boolean",
+					"default": true,
+					"description": "%preview.preview.scrollEditorWithPreview.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.doubleClickToSwitchToEditor": {
+					"type": "boolean",
+					"default": true,
+					"description": "%preview.preview.doubleClickToSwitchToEditor.desc%",
+					"scope": "resource"
+				},
+				"preview.preview.openMarkdownLinks": {
+					"type": "string",
+					"default": "inPreview",
+					"description": "%configuration.preview.preview.openMarkdownLinks.description%",
+					"scope": "resource",
+					"enum": [
+						"inPreview",
+						"inEditor"
+					],
+					"enumDescriptions": [
+						"%configuration.preview.preview.openMarkdownLinks.inPreview%",
+						"%configuration.preview.preview.openMarkdownLinks.inEditor%"
+					]
+				},
+				"markdown.links.openLocation": {
+					"type": "string",
+					"default": "currentGroup",
+					"description": "%configuration.markdown.links.openLocation.description%",
+					"scope": "resource",
+					"enum": [
+						"currentGroup",
+						"beside"
+					],
+					"enumDescriptions": [
+						"%configuration.markdown.links.openLocation.currentGroup%",
+						"%configuration.markdown.links.openLocation.beside%"
+					]
+				},
+				"markdown.trace": {
+					"type": "string",
+					"enum": [
+						"off",
+						"verbose"
+					],
+					"default": "verbose",
+					"description": "%markdown.trace.desc%",
+					"scope": "window"
+				}
+			}
+		},
+		"configurationDefaults": {
+			"[markdown]": {
+				"editor.wordWrap": "on",
+				"editor.quickSuggestions": false
+			}
+		},
+		"jsonValidation": [
+			{
+				"fileMatch": "package.json",
+				"url": "./schemas/package.schema.json"
+			}
+		],
+		"preview.previewStyles": [
+			"./media/markdown.css",
+			"./media/highlight.css"
+		],
+		"preview.previewScripts": [
+			"./media/index.js"
+		],
+		"customEditors": [
+			{
+				"viewType": "vscode.preview.preview.editor",
+				"displayName": "Markdown Preview (Experimental)",
+				"priority": "option",
+				"selector": [
+					{
+						"filenamePattern": "*.md"
+					}
+				]
+			}
+		]
+	},
+	"scripts": {
+		"tidy": "npm install && npm run postinstall && npm-check || npm audit fix",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"compile": "gulp compile && npm run build-preview",
+		"watch": "npm run build-preview && tsc -p ./",
+		"clean": "gulp clean",
+		"vscode:prepublish": "npm run tidy && npm run build-ext && npm run build-preview && npm prune --production",
+		"build-ext": "gulp build",
+		"build-preview": "webpack --mode development --progress",
+		"compile-web": "npx webpack-cli --config extension-browser.webpack.config --mode none",
+		"watch-web": "npx webpack-cli --config extension-browser.webpack.config --mode none --watch --info-verbosity verbose"
+	},
+	"dependencies": {
+		"acorn": "^8.0.4",
+		"eslint": "^7.13.0",
+		"file-url": "^3.0.0",
+		"markdown-it": "^11.0.1",
+		"markdown-it-anchor": "^6.0.1",
+		"markdown2html-less": "^1.0.3",
+		"mermaid": "^8.4.7",
+		"pug": "^3.0.0",
+		"request": "^2.88.2",
+		"rst2mdown": "^0.1.0"
+	},
+	"devDependencies": {
+		"@types/file-url": "^3.0.2",
+		"@types/lodash.throttle": "^4.1.3",
+		"@types/markdown-it": "^10.0.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^14.14.9",
+		"@types/pug": "^2.0.4",
+		"@types/request": "^2.48.5",
+		"@typescript-eslint/eslint-plugin": "^4.8.1",
+		"@typescript-eslint/parser": "^4.8.1",
+		"del": "^6.0.0",
+		"event-stream": "^4.0.1",
+		"gulp": "^4.0.2",
+		"gulp-filter": "^6.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-typescript": "^5.0.1",
+		"run-sequence": "^2.2.1",
+		"ts-loader": "^8.0.11",
+		"typescript": "^4.1.2",
+		"vscode": "^1.1.10",
+		"vsce": "^1.81.1",
+		"vscode-nls-dev": "^3.3.2",
+		"webpack": "^5.6.0",
+		"webpack-bundle-analyzer": "^4.1.0",
+		"webpack-cli": "^4.2.0"
+	},
+	"__metadata": {
+		"id": "03e014a0-a915-4672-92b3-77e5a6ad72df",
+		"publisherId": "ad4b4a51-ddda-46ca-be95-1f009d9f031f",
+		"publisherDisplayName": "Haixin Chen",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673385890436,
+		"preRelease": false
+	}
+}

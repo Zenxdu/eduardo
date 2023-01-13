@@ -1,0 +1,50 @@
+2023-01-10 12:24:20.470 [info] Extension host with pid 6710 started
+2023-01-10 12:24:20.494 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Lock acquired.
+2023-01-10 12:24:20.561 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-01-10 12:24:20.562 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-10 12:24:20.564 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2023-01-10 12:24:20.696 [warning] Using default string since no string found in i18n bundle that has the key: HTML Language Server
+2023-01-10 12:24:20.750 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-10 12:24:20.750 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-10 12:24:20.938 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onLanguage:code-runner-output'
+2023-01-10 12:24:21.271 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:24:21.272 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:24:21.272 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:24:21.272 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-01-10 12:24:21.272 [info] Eager extensions activated
+2023-01-10 12:25:39.711 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-10 12:25:39.711 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-01-10 12:25:39.711 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-01-10 12:25:39.838 [warning] Using default string since no string found in i18n bundle that has the key: Configure
+2023-01-10 12:25:39.838 [warning] Using default string since no string found in i18n bundle that has the key: JSON Language Server
+2023-01-10 12:25:39.864 [warning] Using default string since no string found in i18n bundle that has the key: JSON: Schema Resolution Error
+2023-01-10 12:25:39.941 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2023-01-10 12:25:39.941 [warning] Using default string since no string found in i18n bundle that has the key: JSON Validation Status
+2023-01-10 12:25:39.941 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-10 12:25:39.949 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-10 12:25:39.949 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-10 12:25:39.949 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-10 12:25:39.980 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-01-10 12:27:01.814 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-10 12:27:01.853 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-10 12:27:01.859 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-10 12:27:01.860 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-10 12:27:01.860 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-10 12:27:02.557 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-10 12:27:02.558 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-10 12:27:02.573 [warning] Using default string since no string found in i18n bundle that has the key: Schema Validated
+2023-01-10 12:27:02.573 [warning] Using default string since no string found in i18n bundle that has the key: multiple JSON schemas configured
+2023-01-10 12:27:02.573 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-10 12:27:03.795 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-10 12:27:03.820 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-10 12:27:03.829 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-10 12:27:03.830 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-10 12:27:03.830 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-10 12:27:08.422 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2023-01-10 12:27:08.422 [warning] Using default string since no string found in i18n bundle that has the key: Loading JSON info
+2023-01-10 12:27:08.426 [warning] Using default string since no string found in i18n bundle that has the key: No Schema Validation
+2023-01-10 12:27:08.427 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2023-01-10 12:27:08.427 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2023-01-10 12:32:59.904 [info] Extension host terminating: received terminate message from renderer
+2023-01-10 12:32:59.905 [info] Lock '/home/eduardo/.vscode-server/data/User/workspaceStorage/2238c8c50c7dd614725736a0bacf0805/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-01-10 12:32:59.928 [info] Extension host with pid 6710 exiting with code 0

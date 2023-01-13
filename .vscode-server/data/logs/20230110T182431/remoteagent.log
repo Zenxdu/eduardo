@@ -1,0 +1,12 @@
+2023-01-10 18:24:31.056 [info] Extension host agent started.
+2023-01-10 18:24:31.959 [info] [127.0.0.1][339ff0d5][ManagementConnection] New connection established.
+2023-01-10 18:24:31.965 [info] [127.0.0.1][6da1f411][ExtensionHostConnection] New connection established.
+2023-01-10 18:24:31.969 [info] [127.0.0.1][6da1f411][ExtensionHostConnection] <119> Launched Extension Host Process.
+2023-01-10 18:24:50.213 [info] Getting Manifest... searking.preview-vscode
+2023-01-10 18:24:50.354 [info] Installing extension: searking.preview-vscode
+2023-01-10 18:24:55.193 [info] Extracted extension to /home/eduardo/.vscode-server/extensions/.e0753817-0870-4d28-a49a-5748941afc7a: searking.preview-vscode
+2023-01-10 18:24:55.290 [info] Renamed to /home/eduardo/.vscode-server/extensions/searking.preview-vscode-2.2.5
+2023-01-10 18:24:55.291 [info] Extracting completed. searking.preview-vscode
+2023-01-10 18:24:55.342 [info] Extension installed successfully: searking.preview-vscode
+2023-01-10 18:25:27.304 [info] [127.0.0.1][339ff0d5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-10 18:25:27.394 [info] [127.0.0.1][6da1f411][ExtensionHostConnection] <119> Extension Host Process exited with code: 0, signal: null.
